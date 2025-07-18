@@ -1,0 +1,158 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-A img{
+  height: 200px;
+  width: 200px;
+}
+.navbar{
+  display: flex;
+}
+ul{
+     display: flex;
+    font-size: 60px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.A-section a{
+  margin: 30px;
+padding: 30px;
+}
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a:hover{
+  background-color: black;
+  color: white;
+}
+.navbar ul li a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 30px;
+}
+.navbar::before{
+  content: "";
+  background-image: url(bg1.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+.navbar{
+  display: flex;
+}
+ul{
+     display: flex;
+    font-size: 60px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.A-section a{
+  margin: 30px;
+padding: 30px;
+}
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a:hover{
+  background-color: black;
+  color: white;
+}
+.navbar ul li a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 30px;
+}
+.h-primary{
+      font-size: 150px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#order .box{
+   margin: 20px;
+    border: 2px solid red;
+    border-radius: 100px;
+    background-color: rgb(252, 248, 248);
+    display: block;
+    padding: 20px
+}
+#order .box img{
+  display: block;
+   height: 400px;
+    width: 400px;
+    margin: auto;
+}
+#order .box h1{
+      font-size: 100px;
+    margin: 60px;
+    text-align: center;
+}
+#order .box p{
+  font-size: 50px;
+  text-align: center;
+}
+#order{
+  display :flex;
+}
+.h-secondary{
+  font-size: 150px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.client-itemes img{
+   height: 400px;
+   width: 400px;
+   margin: 10px;
+   padding: 10px;
+}
+#client{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#client::before{
+  content: "";
+  background-image: url(bg.jpg);
+  position: absolute;
+  height: 35%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+.h-elementary{
+   font-size: 150px;
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+}
+#contact-box{
+  font-size: 90px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+   width: 100%;
+   padding: 0.5rem;
+   font-size: 70px;
+   border-radius: 25px;
+}
+#contact-box::before{
+  content: "";
+  background-image: url(bg1.jpg);
+  position: absolute;
+  height: 68%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
